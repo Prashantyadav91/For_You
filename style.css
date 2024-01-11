@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: skyblue;
+}
+.proposal{
+    height: 17rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gif{
+    height: 300px;
+    display: flex;
+    justify-content: center;
+}
+.gif1{
+    height: 250px;
+}
+.reply{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+.option1,.option2{
+    height: 2rem;
+    width: 5em;
+    background-color: rgb(97, 97, 243);
+    color: white;
+}
+.option2:hover {
+    transform: translate(-500px);
+}
+.final{
+    display: flex;
+    justify-content: center;
+}
+.message{
+    height: 2rem;
+    width: 20rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    background-color: pink;
+}
+.msg{
+    font-size: 1.2rem;
+}
